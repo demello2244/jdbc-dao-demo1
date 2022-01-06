@@ -1,0 +1,3 @@
+[submodule "jdbc-dao-demo1"]
+	path = jdbc-dao-demo1
+	url = https://github.com/demello2244/jdbc-dao-demo1.git
