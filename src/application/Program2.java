@@ -32,6 +32,12 @@ public class Program2 {
 		Department dp1 = new Department(null, "Almoxarifado");
 		department.insert(dp1);
 		System.out.println("Insert Department: "+dp1.getId()+" - "+dp1.getName());
+		
+		System.out.println("\n======= TESTE 4 : Department Update =======");
+		Department dp2  = department.findById(5);
+		dp2.setName("Compras");
+		department.update(dp2);
+		System.out.println("Departmento Id: "+ dp2.getId()+" upadated!!");
 	}
 
 }
