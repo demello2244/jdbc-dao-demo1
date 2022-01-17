@@ -38,6 +38,12 @@ public class Program2 {
 		dp2.setName("Compras");
 		department.update(dp2);
 		System.out.println("Departmento Id: "+ dp2.getId()+" upadated!!");
+		
+		
+		System.out.println("\n======= TESTE 5 : Department Delete =======");
+		int id =9;
+		department.deleteById(id);
+		System.out.println("Departmento ID: "+ id +" deleted!!!!");
 	}
 
 }
